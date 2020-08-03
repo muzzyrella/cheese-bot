@@ -1,0 +1,7 @@
+node_modules
+.prettierrc.json
+.eslintrc.js
+.editorconfig
+botToken.json
+guilds/**/
+TODO modules update

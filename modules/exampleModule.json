@@ -1,0 +1,8 @@
+{
+	"name *": "module name, will be used as command",
+	"args": "true if command needs arguments, false or undefined otherwise",
+	"minArgs": "number of expected args",
+	"description *": "short info about module, used as info for help command",
+	"onLoad()": "function to run before module load (ex.: check for config files), should return a promise",
+	"exec(msg, args)": "function to run when called via discord prefix{name}"
+}
