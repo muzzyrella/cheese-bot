@@ -26,7 +26,6 @@ client.once("ready", async () => {
 });
 
 client.on("message", (msg) => {
-	console.log(msg.content);
 	if (msg.channel.type === "dm") return;
 
 	const guildConfig = client.guildConfig.get(msg.guild.id);
